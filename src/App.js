@@ -36,6 +36,10 @@ const App = () =>{
 		/>
 	};
 
+	const handleReset = () =>{
+		setState({});
+	}
+
 
 	return (
 		<div className='app'>
@@ -294,7 +298,7 @@ const App = () =>{
 				</div>
 			</div>
 			<button type='button' className='btn btn-primary shadow-none' onClick={handleDownload} style={{ margin: '20px' }}>Download QR Code</button>
-			<button type='button' className='btn btn-danger shadow-none' onClick={handleDownload} style={{ margin: '20px' }}>Reset</button>
+			<button type='button' className='btn btn-danger shadow-none' onClick={handleReset} style={{ margin: '20px' }}>Reset</button>
 			
 
 		</div>
