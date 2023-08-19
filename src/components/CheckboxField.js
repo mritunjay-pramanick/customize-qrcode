@@ -1,12 +1,9 @@
 import * as React from 'react';
 
 const CheckboxField = ( props ) => {
-	const { name, handleChange } = props;
+	const { name, handleChange, checkedValue } = props;
 	const handleCheckboxToggle = (e) => {
-		const target = {
-			name,
-			value: e.target.checked
-		}
+		const target = { name, value: e.target.checked }
 		handleChange({ target });
 	};
 
@@ -16,7 +13,7 @@ const CheckboxField = ( props ) => {
 				type='checkbox'
 				name={name}
 				onChange={handleCheckboxToggle}
-				
+				checked = {checkedValue}
 			/>
 			<label htmlFor={name}>{name}</label>
 		</div>
