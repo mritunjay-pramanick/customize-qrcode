@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/customize-qrcode/static/css/main.e6c13ad2.css",
-    "main.js": "/customize-qrcode/static/js/main.38c985b6.js",
+    "main.js": "/customize-qrcode/static/js/main.dcb25ceb.js",
     "static/js/787.1cc807a8.chunk.js": "/customize-qrcode/static/js/787.1cc807a8.chunk.js",
     "index.html": "/customize-qrcode/index.html",
     "main.e6c13ad2.css.map": "/customize-qrcode/static/css/main.e6c13ad2.css.map",
-    "main.38c985b6.js.map": "/customize-qrcode/static/js/main.38c985b6.js.map",
+    "main.dcb25ceb.js.map": "/customize-qrcode/static/js/main.dcb25ceb.js.map",
     "787.1cc807a8.chunk.js.map": "/customize-qrcode/static/js/787.1cc807a8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.38c985b6.js"
+    "static/js/main.dcb25ceb.js"
   ]
 }
